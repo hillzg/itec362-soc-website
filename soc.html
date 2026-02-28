@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- SOC ANALYST OVERVIEW PAGE - Author: Zaneta Hill -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOC Analyst Overview | Foundations of Cybersecurity &amp; SOC Operations</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-row">
+      <div class="site-title">
+        Foundations of Cybersecurity<br />
+        &amp; SOC Operations
+      </div>
+
+      <nav aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a class="nav-active" href="soc.html">SOC Analyst Overview</a>
+        <a href="skills.html">Skills &amp; Tools</a>
+        <a href="projects.html">Projects &amp; Labs</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ONE stable 2-column section: text/bullets + images in the same columns -->
+    <section class="two-col" aria-label="SOC overview and responsibilities">
+      <div class="col">
+        <h2 class="section-title">SOC Analyst Overview</h2>
+
+        <p class="body-text">
+          SOC Analysts serve as the first line of defense within a Security Operations Center. They monitor security tools, review alerts, and investigate
+          potential threats to protect organizational systems and data. Entry-level analysts support threat detection efforts while gaining experience in
+          incident response and established security workflows (Radiant Security, 2025).
+        </p>
+
+        <img
+          class="soc-img"
+          src="images/soc-room.jpg"
+          alt="Security Operations Center monitoring room"
+        />
+      </div>
+
+      <div class="col">
+        <h2 class="section-title">SOC Analyst Responsibilities</h2>
+
+        <ul class="bullet-list">
+          <li>Monitor security alerts and SIEM dashboards</li>
+          <li>Investigate suspicious activity and analyze logs</li>
+          <li>Identify indicators of compromise (IOCs)</li>
+          <li>Escalate confirmed incidents to senior analysts</li>
+          <li>Assist with incident response procedures</li>
+          <li>Document findings and maintain security reports</li>
+        </ul>
+
+        <img
+          class="soc-img"
+          src="images/soc-icon.jpg"
+          alt="Security Operations Center concept graphic"
+        />
+      </div>
+    </section>
+
+    <!-- Divider + Reference -->
+    <div class="divider-line" aria-hidden="true"></div>
+
+    <section class="reference-section" aria-label="Industry reference">
+      <h3 class="reference-title">Industry Reference</h3>
+
+      <p class="reference-text">
+        Radiant Security. (2025). What Is a SOC Analyst? Role &amp; Responsibilities Explained. Retrieved from
+        <a href="https://radiantsecurity.ai/learn/soc-analyst/" target="_blank" rel="noopener noreferrer">
+          https://radiantsecurity.ai/learn/soc-analyst/
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Contact: hill.zaneta@gmail.com | Portfolio: portfolio.com/hillzaneta
+  </footer>
+</body>
+</html>
