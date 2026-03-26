@@ -472,32 +472,38 @@ footer {
 
 @media (max-width: 768px) {
 
-  /* Header layout */
   .header-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
-  }
-
-  nav {
-    justify-content: flex-start;
-    gap: 12px;
-  }
-
-  nav a {
-    font-size: 13px;
+    gap: 14px;
+    padding: 16px 20px;
   }
 
   .site-title {
     font-size: 18px;
+    flex: 0 1 auto;
+    min-width: 0;
+    width: 100%;
   }
 
-  /* Main spacing */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 14px;
+    flex: 0 1 auto;
+    width: 100%;
+  }
+
+  nav a {
+    font-size: 13px;
+    white-space: normal;
+  }
+
   main {
     padding: 40px 15px 120px;
   }
 
-  /* Text adjustments */
   .intro {
     font-size: 16px;
   }
@@ -510,16 +516,47 @@ footer {
     font-size: 20px;
   }
 
-  /* Image spacing */
   .hero-img {
     margin-bottom: 25px;
   }
 
-  /* Footer fix (VERY IMPORTANT) */
+  .two-col {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding-top: 10px;
+  }
+
+  .two-col .section-title {
+    margin-bottom: 20px;
+  }
+
+  .two-col .body-text,
+  .bullet-list,
+  .soc-img,
+  .reference-text {
+    max-width: 100%;
+  }
+
+  .bullet-list {
+    padding-left: 20px;
+    line-height: 1.7;
+  }
+
+  .reference-section {
+    margin-bottom: 40px;
+  }
+
+  .reference-title {
+    font-size: 14px;
+  }
+
+  .reference-text {
+    font-size: 12px;
+  }
+
   footer {
     position: relative;
   }
-
 }
 
 /* SOC page */
