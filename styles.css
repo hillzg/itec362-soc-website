@@ -521,3 +521,38 @@ footer {
   }
 
 }
+
+/* SOC page */
+   .two-col {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding-top: 10px;
+  }
+
+  .two-col .section-title {
+    margin-bottom: 20px;
+  }
+
+  .two-col .body-text,
+  .bullet-list,
+  .soc-img,
+  .reference-text {
+    max-width: 100%;
+  }
+
+  .bullet-list {
+    padding-left: 20px;
+    line-height: 1.7;
+  }
+
+  .reference-section {
+    margin-bottom: 40px;
+  }
+
+  .reference-title {
+    font-size: 14px;
+  }
+
+  .reference-text {
+    font-size: 12px;
+  }
