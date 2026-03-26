@@ -464,3 +464,60 @@ footer {
   max-width: 950px;
   margin: 55px auto 40px;
 }
+
+
+/* ============================= */
+/* MOBILE RESPONSIVE FIXES */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+  /* Header layout */
+  .header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  nav a {
+    font-size: 13px;
+  }
+
+  .site-title {
+    font-size: 18px;
+  }
+
+  /* Main spacing */
+  main {
+    padding: 40px 15px 120px;
+  }
+
+  /* Text adjustments */
+  .intro {
+    font-size: 16px;
+  }
+
+  .body-text {
+    font-size: 15px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  /* Image spacing */
+  .hero-img {
+    margin-bottom: 25px;
+  }
+
+  /* Footer fix (VERY IMPORTANT) */
+  footer {
+    position: relative;
+  }
+
+}
