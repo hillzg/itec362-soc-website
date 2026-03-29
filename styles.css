@@ -554,6 +554,55 @@ footer {
     font-size: 12px;
   }
 
+  .skills-two-col {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 100%;
+  }
+
+  .skills-list {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .tools-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 100%;
+    margin: 25px auto 60px;
+  }
+
+  .tool-logo {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .about-text {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .contact-intro {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .contact-wrap {
+    padding: 24px 20px;
+    margin: 0 auto 60px;
+  }
+
   footer {
     position: relative;
   }
