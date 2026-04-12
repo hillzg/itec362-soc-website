@@ -75,7 +75,7 @@ nav a:hover { text-decoration: underline; }
 main {
   max-width: 1050px;
   margin: 0 auto;
-  padding: 95px 20px 170px;
+  padding: 95px 20px 90px;
   min-height: calc(100vh - 140px);
   text-align: center; /* headings stay centered by default */
 }
