@@ -66,8 +66,32 @@
     </section>
   </main>
 
+  <!-- new quote section -->
+  <section class="quote-section">
+    <h2>Cybersecurity Insight</h2>
+    <p id="quoteDisplay">Click the button to see a cybersecurity quote.</p>
+    <button onclick="showQuote()">Show Quote</button>
+  </section>
+  
   <footer>
     Contact: hill.zaneta@gmail.com | Portfolio: portfolio.com/hillzaneta
   </footer>
+
+  <!-- JavaScript  -->
+   <script>
+    const quotes = [
+        "Cybersecurity is much more than a matter of IT. - Stephane Nappo",
+        "Security used to be an inconvenience sometimes, but now it’s a necessity all the time. - Martina Navratilova",
+        "The weakest link in cybersecurity is often the human element.",
+        "Good cybersecurity practices help protect data, systems, and people.",
+        "Staying aware online is one of the best defenses against cyber threats."
+    ];
+
+    function showQuote() {
+        let randomIndex = Math.floor(Math.random() * quotes.length);
+        document.getElementById("quoteDisplay").textContent = quotes[randomIndex];
+    }
+  </script>
+  
 </body>
 </html>
