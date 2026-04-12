@@ -603,6 +603,24 @@ footer {
     margin: 0 auto 60px;
   }
 
+  .quote-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.quote-section button {
+    background-color: #2D2BAB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quote-section button:hover {
+    background-color: #1f1f80;
+}
+
   footer {
     position: relative;
   }
